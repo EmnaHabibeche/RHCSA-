@@ -1,4 +1,4 @@
-# Titre de la section
+# Archivage et compression
 
 ## 📦 Archivage & Compression
 
@@ -12,3 +12,9 @@
 - `tar -cvjf répertoire.tar.bz2 répertoire` → archive + bzip2.
 - `ls -lh` → pour vérifier la taille.
 
+  
+✅ Étape 1 : Créer une archive .tar (non compressée)
+$tar -cvf archive.tar dossier/
+-c : créer une archive
+-v : mode verbeux (affiche les fichiers)
+-f : spécifie le nom de l’archive
