@@ -15,6 +15,9 @@
   
 ✅ Étape 1 : Créer une archive .tar (non compressée)
 $tar -cvf archive.tar dossier/
+
 -c : créer une archive
+
 -v : mode verbeux (affiche les fichiers)
+
 -f : spécifie le nom de l’archive
